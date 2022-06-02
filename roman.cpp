@@ -1,7 +1,21 @@
 //I use the case switch getValue to get the case's value, then if else to see whether the value matches the case.
 // and to get the value from the cout in order to solve the case issue.
+#include <iostream> // cout
 using namespace std; // cout
- 
+template<typename T>
+class roman
+{
+private:
+    T m_t;
+public:
+    roman(T t) : m_t(t) {}
+};
+int i = 0;
+roman<int> intFoo = i;
+
+double d = 0.0;
+roman<double> doubleroman = d;
+
 int getValue // getValue
 (char ch) // ch
   {
