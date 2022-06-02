@@ -2,19 +2,13 @@
 // and to get the value from the cout in order to solve the case issue.
 #include <iostream> // cout
 using namespace std; // cout
-template<typename T>
-class roman
+class elevator // elevator
 {
-private:
-    T m_t;
-public:
-    roman(T t) : m_t(t) {}
+private: // private
+public: // public
 };
-int i = 0;
-roman<int> intFoo = i;
-
-double d = 0.0;
-roman<double> doubleroman = d;
+    int i = 0; // i
+    double d = 0.0; // d/ double elevator
 
 int getValue // getValue
 (char ch) // ch
